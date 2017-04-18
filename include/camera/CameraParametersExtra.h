@@ -29,6 +29,7 @@ const char CameraParameters::KEY_SONY_ISO_AVAIL_MODES[] = "sony-iso-values"; \
 const char CameraParameters::KEY_SONY_ISO_MODE[] = "sony-iso"; \
 const char CameraParameters::KEY_SONY_AE_MODE_VALUES[] = "sony-ae-mode-values"; \
 const char CameraParameters::KEY_SONY_AE_MODE[] = "sony-ae-mode"; \
+const char CameraParameters::SCENE_MODE_SOFT_SNAP[] = "soft-snap"; \
 const char CameraParameters::VALUE_SONY_ON[] = "on"; \
 const char CameraParameters::VALUE_SONY_OFF[] = "off"; \
 const char CameraParameters::VALUE_SONY_STILL_HDR[] = "on-still-hdr"; \
@@ -50,6 +51,7 @@ const char CameraParameters::VALUE_SONY_INTELLIGENT_ACTIVE[] = "on-intelligent-a
 	static const char KEY_SONY_ISO_MODE[]; \
 	static const char KEY_SONY_AE_MODE_VALUES[]; \
 	static const char KEY_SONY_AE_MODE[]; \
+	static const char SCENE_MODE_SOFT_SNAP[]; \
 	static const char VALUE_SONY_ON[]; \
 	static const char VALUE_SONY_OFF[]; \
 	static const char VALUE_SONY_STILL_HDR[]; \
